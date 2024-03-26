@@ -8,10 +8,3 @@ module.exports = {
     domains: ['res.cloudinary.com', 'media.dev.to']
   }
 }
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  output: "next export",
-};
-
-module.exports = nextConfig;
