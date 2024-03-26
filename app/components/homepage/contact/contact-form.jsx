@@ -36,7 +36,7 @@ function ContactForm() {
 
     const serviceID = process.service_n223scq;
     const templateID = process.template_n1rikum;
-    const options = { publicKey: process.-eQAwEdBR7SAAiY1b};
+    const options = { publicKey: process."-eQAwEdBR7SAAiY1b"};
 
     try {
       const res = await emailjs.send(serviceID, templateID, input, options);
